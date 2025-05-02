@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>The tech repair guy</title>
+</head>
+<body>
+    <div class="navbar">
+        <h2 class="logo" style="text-align: center;">TTRG</h2>
+    </div>
+</body>
+<body>
+  <section class="showcase">
+      <header>
+        <h2 class="logo">,0w0,</h2>
+        <div class="toggle"></div>
+      </header>
+      <video src="MV.mp4" muted loop autoplay></video>
+      <div class="overlay"></div>
+      <div class="text">
+          <h2 style="text-align: start;"> Our Services</h2> 
+          <p class="par"><br>- Pc Repair & Upgrades<br>- Keyboard Fixes<br>- Virus removal & Data recovery<br>- Free Diagnostics</p>
+            <p class="par2"><br>Say "TTRG" when booking to get 10% off for visiting our website!</p>
+        </div>
+      
+      </section>
+      <div class="menu">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index2.html">About</a></li>
+            <li><a href="index3.html">Services</a></li>
+            <li><a href="index4.html">Contact</a></li>
+          </ul>
+      </div>
+
+      <script>
+        const menuToggle = document.querySelector('.toggle');
+        const showcase = document.querySelector('.showcase');
+   
+        menuToggle.addEventListener('click', () => {
+          menuToggle.classList.toggle('active');
+          showcase.classList.toggle('active');
+         })
+      </script>
+</body>
+</html>
